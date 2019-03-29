@@ -1,0 +1,417 @@
+// Home Css
+.logo
+	width: 100px
+	margin-top: 5rem 
+
+.logotext
+	font-family: "Aclonica", sans-serif !important
+	color: #fff !important
+	margin-top: 4.5rem !important
+	text-shadow: 2px 2px 4px #000 !important
+
+.logoset
+	display: flex
+	align-items: center
+
+#home-slider
+	overflow: hidden
+	position: relative
+
+#home-slider 
+	.caption
+		position: absolute
+		top: 50%
+		margin-top: -104px
+		left: 0
+		right: 0
+		text-align: center
+		z-index: 15
+		font-size: 18px
+		font-weight: 300
+		color: #fff
+
+#home-slider 
+	.caption 
+		h1  .text1
+			color: #fff !important
+			font-size: 60px !important
+			font-weight: 700 !important
+			margin-bottom: 30px !important
+			font-family: "Aclonica", sans-serif !important
+			text-shadow: 3px 4px 5px #000 !important
+			animation-delay: 50s !important
+			position: relative
+
+#home-slider .caption h1 .text2
+	background: linear-gradient(to bottom, blue 20%, white 40%, yellow 60%, red 70%) !important
+	-webkit-background-clip: text !important
+	-webkit-text-fill-color: transparent !important
+	color: #fff
+	position: relative
+	font-size: 60px !important
+	margin-left: 2rem !important
+	font-weight: 700 !important
+	margin-bottom: 30px !important
+	font-family: "Aclonica", sans-serif !important
+
+#home-slider .caption h1 .text2:after 
+	background: none
+	content: attr(data-text)
+	left: 0.07rem
+	position: absolute
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 1) !important
+	top: 0
+	z-index: -1
+
+
+#home-slider .fa-angle-double-down 
+	position: absolute
+	left: 50%
+	bottom: 50px
+	color: #fff !important
+	display: inline-block
+	width: 24px
+	margin-left: -12px
+	font-size: 24px
+	line-height: 24px
+	z-index: 999
+	-webkit-animation: bounce 3000ms infinite
+	animation: bounce 3000ms infinite
+	text-shadow: 2px 2px 4px #000 !important
+
+.places
+	display: flex
+	justify-content: center
+	background-position: center
+	background-color: rgba(128, 128, 128, 0.45)
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8)
+	text-shadow: 2px 2px 4px #000 
+	margin: 0 35%
+	
+	
+
+//NAVIGATION
+
+.navbar-right 
+	li 
+		a 
+			color: #fff
+			text-transform: uppercase
+			font-size: 14px
+			font-weight: 600
+			padding-top: 30px
+			padding-bottom: 30px
+
+
+.navbar-right li.active a 
+	background-color: rgba(0,0,0,.2)
+
+
+.navbar-brand h1 
+	margin-top: 5px
+
+.nav > li > a:hover
+	background-color: #7ba8d0
+
+@media (min-width: 768px) 
+	.urllist
+		display: flex
+		flex-direction: row
+		text-shadow: 2px 2px 4px #000 !important
+
+//ABOUT
+
+#about 
+	padding-top: 10rem !important
+
+.heading
+	margin-top: 5rem !important
+
+
+.about-places 
+	margin-bottom: 25px
+
+
+#about .img-responsive 
+	width: 100%
+
+
+.place-info h3 
+	margin-top: 35px
+
+
+.place-info h4 
+	font-size: 14px
+	margin-bottom: 15px
+	color: #999
+
+.about-place 
+	text-align: center
+	color: #333
+	font-size: 14px
+
+//GALLERY
+
+#gallery .container-fluid, 
+#gallery .col-sm-3  
+	overflow: hidden
+	padding: 0
+
+
+#gallery .gallery-item 
+	position: relative
+
+
+#gallery .overlay 
+	background-color: #000
+	color: #fff
+	left: 0
+	right:0
+	bottom:-100%
+	height: 0
+	position: absolute
+	text-align: center
+	opacity:0 
+	-webkit-transition: all 0.5s ease-in-out
+	transition: all 0.5s ease-in-out
+
+.overlay .overlay-content 
+	display: table
+	height: 100%
+	width: 100%
+
+
+.overlay .overlay-text 
+	display: table-cell
+	vertical-align: middle
+
+
+.overlay .gallery-info 
+	opacity: 0
+	margin-bottom: 75px
+	margin-top: -75px
+	-webkit-transition: all 1s ease-in-out
+	transition: all 1s ease-in-out
+
+
+.overlay .gallery-info h3 
+	margin-top: 0
+	color: #fff
+
+
+.gallery-overview a 
+	font-size: 18px
+	color: #333
+	height: 50px
+	width: 50px
+	line-height: 50px
+	border-radius: 50%
+	background-color: #fff
+	display: inline-block
+	margin-top: 20px
+	margin-right: 5px
+
+
+.gallery-overview a:hover 
+	color: #fff
+
+
+.gallery-overview .gallery-expand 
+	margin-top: -500px
+	margin-left: -500px
+
+
+.gallery-image, .gallery-overview .gallery-expand 
+	-webkit-transition: all 0.8s ease-in-out
+	transition: all 0.8s ease-in-out
+
+
+#gallery .gallery-item:hover .gallery-image 
+	-webkit-transform: scale(1.5) rotate(-15deg)
+	transform: scale(1.5) rotate(-15deg)
+
+
+.gallery-image img 
+	width: 100%
+
+
+#gallery .gallery-item:hover .overlay 
+	opacity: 0.8
+	bottom: 0
+	height: 100%
+
+
+#gallery .gallery-item:hover .gallery-overview .gallery-expand 
+	margin-top: 0
+	margin-left:0
+
+#gallery .gallery-item:hover .overlay .gallery-info 
+	opacity: 1
+	margin-bottom:0
+	margin-top:0
+
+
+
+#single-gallery 
+	padding: 90px 0
+	background: #f5f5f5
+	position: relative
+
+
+#single-gallery img 
+	width: 100%
+	margin-bottom: 10px
+
+
+#single-gallery .close-gallery-item 
+	position: absolute
+	top: 30px
+	font-size: 34px
+	width: 34px
+	height: 34px
+	left: 50%
+	color: #999
+	margin-left: -17px
+
+//PARALLAX
+
+.parallax 
+	background-size: cover
+	background-attachment: fixed
+	background-repeat: no-repeat
+	background-position: center
+
+.quote 
+	background-image: url(img/palawan1.jpg)
+	padding: 60px 0
+
+
+.quote h2 
+	font-family: 'Playball', cursive
+	margin: 10rem 4rem
+	display: flex
+	justify-content: center
+	text-shadow: 2px 2px 4px #000 !important
+	color: #fff
+	font-size: 70px
+	font-weight: 400
+	// text-shadow: 2px 2px 4px #000, 0 0 25px #000, 0 0 5px #000
+	text-shadow: 3px 4px 5px #000 !important
+
+//CONTACT
+#contact 
+	padding-top: 45px
+	padding-bottom: 0
+
+
+#google-map
+	height: 350px
+
+
+.contact-image
+	background-image: url(img/coron.jpg)
+	padding-bottom: 90px
+
+
+#contact-image .heading 
+	padding-top: 95px
+
+.contact-text
+	color: #fff
+	text-shadow: 3px 4px 5px #000 !important
+
+.inquire
+	text-shadow: 3px 4px 5px #000 !important 
+
+.form-control
+	background-color: transparent
+	border-color: rgba(255,255,255,.1)
+	height: 50px
+	border-radius: 0
+	box-shadow: none
+
+.form-control:focus
+	background-color: #cdcdcd
+
+textarea.form-control 
+	min-height: 180px
+	resize: none
+
+
+.form-group
+	margin-bottom: 30px
+
+.form-control
+	border: 1px solid #fff
+	box-shadow: 0px 2px 10px rgba(225, 225, 225, 0.8)
+
+
+.btn-submit 
+	display: block
+	padding: 12px
+	width: 100%
+	color: #fff
+	border:0
+	margin-top: 40px
+	box-shadow: 0px 2px 10px rgba(225, 225, 225, 0.8)
+
+::placeholder
+	color: #fff !important
+	opacity: 1 !important
+	text-shadow: 3px 4px 5px #000 !important
+
+
+//FOOTER
+
+footer 
+	color:#fff
+
+footer 
+	background: linear-gradient(to right,#064273, #1da2d8, #7fcdff, #76b6c4, #064273)
+	padding: 10px 0 10px
+
+
+footer .footer-bottom a:hover 
+	text-decoration: underline
+
+footer .social-icons 
+	margin-top: 5px
+
+
+footer .social-icons ul 
+	list-style: none
+	padding: 0
+	margin: 0
+
+
+footer .social-icons ul li a 
+	border-radius: 4px
+	margin-right: 2rem
+	font-size: 20px
+	color: #fff
+
+
+footer .social-icons ul li a:hover 
+	color: #fff
+
+footer .social-icons ul li a.facebook:hover 
+	// color: #028fcc
+	color: #064273
+
+footer .social-icons ul li a.twitter:hover 
+	color: #064273
+
+footer .social-icons ul li a.linkedin:hover 
+	color: #064273
+
+footer .social-icons ul li a.tumblr:hover 
+	color: #064273
+
+footer .footer-details
+	font-size: 14px
+	vertical-align: center
+	margin-top: 1rem
+
+
+
+
