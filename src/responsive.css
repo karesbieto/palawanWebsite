@@ -74,6 +74,9 @@
     text-align: center;
     font-size: 35px;
   }
+  footer{
+    text-align: center
+  }
 }
 /* XS Portrait */
 @media (max-width: 479px) {
