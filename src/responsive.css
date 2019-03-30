@@ -16,7 +16,7 @@
   }
 }
 /* xs */
-@media (min-width: 480px) and (max-width: 767px) {
+@media (max-width: 767px) {
   body {
     font-size: 14px;
   }
@@ -85,6 +85,12 @@
     text-shadow: 2px 2px 4px #000 !important
     display: flex;
     justify-content: center;
+  }
+
+  .quote h2 { 
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
 
 }
