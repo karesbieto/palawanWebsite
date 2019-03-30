@@ -30,7 +30,7 @@
   font-family: "Aclonica", sans-serif !important;
   color: #fff !important;
   margin-top: 4.5rem !important;
-  text-shadow: 2px 2px 4px #000 !important;
+  text-shadow: 3px 4px 5px #000 !important;
 }
 
 .logoset {
@@ -141,7 +141,7 @@
   .urllist {
     display: flex;
     flex-direction: row;
-    text-shadow: 2px 2px 4px #000 !important;
+    text-shadow: 3px 4px 5px #000 !important;
   }
 }
 #about {
@@ -420,7 +420,7 @@ footer .social-icons ul li a {
   margin-right: 2rem;
   font-size: 20px;
   color: #fff;
-  text-shadow: 2px 2px 4px #000 !important;
+  text-shadow: 3px 4px 5px #000 !important;
 }
 
 footer .social-icons ul li a:hover {
@@ -447,7 +447,7 @@ footer .footer-details {
   font-size: 14px;
   vertical-align: center;
   margin-top: 1rem;
-  text-shadow: 2px 2px 4px #000 !important;
+  text-shadow: 3px 4px 5px #000 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
