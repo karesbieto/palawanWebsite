@@ -211,11 +211,14 @@
   }
 
   #home-slider .caption h1 .text1 {
-    font-size: 50px !important;
+    font-size: 40px !important;
   }
 
   #home-slider .caption h1 .text2 {
-    font-size: 50px !important;
+    font-size: 40px !important;
   }
 
+  #home-slider .caption {
+    padding-left: 0 !important;
+  }
 }
