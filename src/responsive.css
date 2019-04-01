@@ -159,6 +159,18 @@
     padding-top: 10px;
   }
 
+  #about {
+	margin-top: 0px !important;
+  }
+  
+  #about .mt-5 {
+	margin-top: 0px !important;
+  }
+  
+   .heading {
+	margin-top: 0px !important;
+  }
+
   .quote h2 {
     text-align: center;
     font-size: 35px;
