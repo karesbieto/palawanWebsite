@@ -188,6 +188,11 @@
   padding: 0;
 }
 
+#gallery .col-lg-3 {
+  overflow: hidden;
+  padding: 0;
+}
+
 #gallery .gallery-item {
   position: relative;
 }
@@ -314,14 +319,15 @@
 
 .quote {
   background-image: url(img/palawan1.jpg);
-  padding: 60px 0;
 }
 
 .quote h2 {
   font-family: "Playball", cursive;
   margin: 10rem 4rem;
+  height: 300px;
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   text-shadow: 2px 2px 4px #000 !important;
   color: #fff;
@@ -341,6 +347,10 @@
 
 .contact-image {
   background-image: url(img/coron.jpg);
+}
+
+.transparent {
+  background: rgba(0, 0, 0, 0.5);
   padding-bottom: 90px;
 }
 
@@ -397,6 +407,10 @@ textarea.form-control {
   color: #fff !important;
   opacity: 1 !important;
   text-shadow: 3px 4px 5px #000 !important;
+}
+
+.bottom {
+  padding-bottom: 90px !important;
 }
 
 footer {
