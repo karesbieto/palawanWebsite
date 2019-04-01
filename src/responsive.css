@@ -93,10 +93,11 @@
     text-align: center;
   }
 
+ 
 }
 
 /* XS Portrait */
-@media (max-width: 479px) {
+@media (max-width: 500px) {
   .about-places .col-sm-3,
 #gallery .col-sm-3 {
     float: none;
@@ -183,7 +184,7 @@
   background-position: center;
   }
   footer .footer-details, footer .social-icons ul li a {
-    text-shadow: 2px 2px 4px #000 !important
+    text-shadow: 2px 2px 4px #000 !important;
     display: flex;
     justify-content: center;
   }
@@ -194,12 +195,19 @@
     text-align: center;
   }
 
-  .goright {
+  footer .goright {
     float: left !important;
     margin-left: 3rem !important;
   }
 
-
 }
 
 
+@media (max-width: 380px) {
+
+    footer .goright {
+    float: left !important;
+    padding: 0 !important;
+  }
+
+}

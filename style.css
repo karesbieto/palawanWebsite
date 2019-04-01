@@ -458,10 +458,10 @@ footer .footer-details {
 }
 
 footer .goright {
-  padding-right: 15px;
-  padding-left: 0;
-  text-align: right;
-  float: right;
+  padding-right: 15px !important;
+  padding-left: 0 !important;
+  text-align: right !important;
+  float: right !important;
 }
 
 /*# sourceMappingURL=style.css.map */
