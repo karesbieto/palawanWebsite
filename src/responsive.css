@@ -210,4 +210,12 @@
     padding: 0 !important;
   }
 
+  #home-slider .caption h1 .text1 {
+    font-size: 50px !important;
+  }
+
+  #home-slider .caption h1 .text2 {
+    font-size: 50px !important;
+  }
+
 }
