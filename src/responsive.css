@@ -5,7 +5,9 @@
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  .bgimage {
+    height: 1366px !important;
+  }
 }
 
 /* sm */
@@ -13,6 +15,14 @@
   .navbar-right li a {
     font-size: 12px;
     padding-right: 10px;
+  }
+
+  footer .goright{
+    padding-right: 35px !important;
+  }
+
+  .bgimage {
+    height: 1024px !important;
   }
 }
 /* xs */
@@ -43,6 +53,11 @@
   margin-left: -15px
   display: inline-block
   }
+
+  .bgimage {
+    height: 812px !important;
+  }
+
   #home-slider .caption h1 {
     font-size: 40px;
   }
@@ -103,6 +118,11 @@
     float: none;
     width: 100%;
   }
+
+  .bgimage {
+    height: 812px !important;
+  }
+
   .parallax {
   background-size: cover;
   background-attachment: fixed;
@@ -210,6 +230,10 @@
     padding: 0 !important;
   }
 
+  .logo {
+    width: 70px !important;
+  }
+  
   #home-slider .caption h1 .text1 {
     font-size: 40px !important;
   }
@@ -221,4 +245,18 @@
   #home-slider .caption {
     padding-left: 3px !important;
   }
+}
+
+@media (max-width: 360px) {
+
+    .bgimage {
+      height: 640px !important;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .bgimage {
+      height: 568px !important;
+    }
 }
