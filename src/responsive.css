@@ -267,4 +267,30 @@
     .bgimage {
       height: 568px !important;
     }
+    .logo {
+      padding-top: 0px !important;
+      margin-top: 25px !important;
+    }
+
+    .logotext {
+      margin-top: 25px !important;
+    }
+    .navbar-brand {
+      padding: 0 0px 0px;
+    }
+
+  .navbar-toggle {
+    border: 1px solid #fff;
+  }
+
+  .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+  
+  .navbar-right li a {
+    font-size: 13px;
+    padding-bottom: 8px;
+    padding-top: 10px;
+  }
+
 }
